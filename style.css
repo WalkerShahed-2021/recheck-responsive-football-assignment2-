@@ -3,10 +3,11 @@ body{
 }
 .banner-bg{
     background-color: #2D25A0;
-    height: 695px;
+    height: 700px;
     width: 100%;
     text-align: center;
     color: white;
+    margin-top: -100px;
 }
 
 .banner-all{
@@ -37,17 +38,18 @@ body{
 .banner-img img:hover{
    width: 300px;
 }
-
-.top-players{
-    margin: 50px;
+.text-top{
+    text-align: center;
 }
+
 .top-players img{
     align-items: center;
-   width: 100%;
+    width: 100%;
 }
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 100px;
 }
 .single-players{
  margin-top: 20px;
@@ -70,19 +72,18 @@ body{
    text-align: center;
 }
 .flex-style{
-    display: flex;
-    text-align: center;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
     margin-right: 10px;
 }
-.flex-style{
-    display: flex;
-    text-align: center;
-    margin-right: 10px;
-}
+
 .flex-style img{
    width: 50px;
    margin-right: 10px;
-   text-align: center;
+}
+.center-style{
+    text-align: center;
 }
 .last-sec{
     display: grid;
