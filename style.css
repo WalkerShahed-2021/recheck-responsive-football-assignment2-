@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner-bg{
+    background-color: #2D25A0;
+    height: 695px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.banner-all{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.banner-title{
+    margin-top: 100px;
+}
+.banner-title button{
+    height: 40px;
+    width: 120px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner-img img{
+    margin-top: 100px;
+    height: 438px;
+    width: 556.0103149414062px;
+    left: 1173.01025390625px;
+    top: 153px;
+    border-radius: 0px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+.banner-img img:hover{
+   width: 300px;
+}
+
+.top-players{
+    margin: 50px;
+}
+.top-players img{
+    align-items: center;
+   width: 100%;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-players{
+ margin-top: 20px;
+ height: 456px;
+ width: 330px;
+ border-radius: 0px;
+ padding: 15px;
+ box-shadow: 2px 3px 7px 4px; 
+ border-radius: 5px;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.logo-align img{
+    width: 50%;
+}
+.footer-style{
+   text-align: center;
+}
+.flex-style{
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+}
+.flex-style{
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+}
+.flex-style img{
+   width: 50px;
+   margin-right: 10px;
+   text-align: center;
+}
+.last-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+.last-img img{
+    width: 100%;
+}
+.text-style{
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 688px) {
+    .top-players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width: 688px) {
+    .banner-all{
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: block;
+    }
+}
+@media only screen and (max-width: 688px) {
+    .last-sec{
+        display: block;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .top-players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .last-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
